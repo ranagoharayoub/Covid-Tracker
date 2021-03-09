@@ -31,7 +31,7 @@ const useStyles = makeStyles({
 
     margin : {
       
-      marginRight: 20,
+      marginRight: 10,
       
     },
     pos: {
