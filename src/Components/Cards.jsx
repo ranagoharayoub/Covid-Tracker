@@ -76,7 +76,7 @@ fontSize: {
 function Cards() {
 
     const classes = useStyles();
-    const [{confirmed,recovered,deaths,lastupdate}, dispatch] = useStateValue()
+    const [{confirmed,recovered,deaths,lastupdate}] = useStateValue()
     
     const Confirmed = parseInt(confirmed? confirmed: '0', 10)
     const Recovered = parseInt(recovered? recovered: '0', 10)

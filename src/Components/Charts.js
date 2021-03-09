@@ -8,7 +8,7 @@ import style from './Charts.module.css'
 
 function Charts() {
 
-    const [{DailyData,confirmed,recovered,deaths,selectedCountry} , dispatch] = useStateValue()
+    const [{DailyData,confirmed,recovered,deaths,selectedCountry} ] = useStateValue()
 
 
 
