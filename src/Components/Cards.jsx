@@ -32,6 +32,7 @@ const useStyles = makeStyles({
     margin : {
       
       marginRight: 10,
+      marginTop: 10
       
     },
     pos: {
@@ -117,7 +118,7 @@ function Cards() {
                     </Typography>
                 </CardContent>
             </Card>
-            <Card className={`${classes.root} ${classes.borderthree}`}>
+            <Card className={`${classes.root} ${classes.borderthree} ${classes.margin}`}>
                 <CardContent>
                     <Typography className={classes.title} >
                         Death Cases
