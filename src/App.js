@@ -1,4 +1,4 @@
-// import { useEffect } from 'react';
+import { useEffect } from 'react';
 import{ API} from './API/API';
 import './App.css';
 import Cards from './Components/Cards';
@@ -10,6 +10,9 @@ import CountryPicker from './Components/CountryPicker';
 
 
 function App() {
+  useEffect(() => {
+    document.title='Covid-19'
+  }, [])
 
 API()  
 
